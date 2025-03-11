@@ -2,7 +2,7 @@ name: Send emails weekly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 18 * * 5'
 
 jobs:
   calculate-and-send:
